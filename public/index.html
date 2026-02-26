@@ -128,7 +128,7 @@
                     <div class="space-y-1.5 font-mono text-[9px]">
                         <div class="text-slate-500">Endpoint:</div>
                         <div class="text-primary break-all bg-black/40 p-2 rounded border border-primary/30">
-                            https://unstormed-lilliana-nonenviously.ngrok-free.dev/api/chat
+                            https://tokamak-network-openfang-vault-production.up.railway.app/api/chat
                         </div>
                         <div class="text-slate-500 mt-3">Method: <span class="text-white">POST</span></div>
                         <div class="text-slate-500">Body:</div>
@@ -362,7 +362,7 @@
 
         // Copy cURL Button
         document.getElementById('copy-api-btn').addEventListener('click', async () => {
-            const endpoint = 'https://unstormed-lilliana-nonenviously.ngrok-free.dev/api/chat';
+            const endpoint = 'https://tokamak-network-openfang-vault-production.up.railway.app/api/chat';
             const curlCmd = `curl -X POST ${endpoint} \\\n  -H "Content-Type: application/json" \\\n  -d '{"message": "Hello! Can you help me?"}'`;
             try {
                 await navigator.clipboard.writeText(curlCmd);
