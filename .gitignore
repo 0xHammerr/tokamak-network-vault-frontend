@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables (보안상 절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+server.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
